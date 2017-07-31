@@ -12,6 +12,7 @@ import java.util.Arrays;
  * @author Ashish
  */
 public class LongestUniqueSubstring {
+    
   public static int longestString(String str){
     int n = str.length();
     int cur_length=1; // Length of current string
